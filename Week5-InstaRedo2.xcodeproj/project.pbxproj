@@ -3,18 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01561217260589D7002B38B8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01561216260589D7002B38B8 /* PostCell.swift */; };
 		01C043A526054E4C00843778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C043A426054E4C00843778 /* AppDelegate.swift */; };
 		01C043A726054E4C00843778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C043A626054E4C00843778 /* SceneDelegate.swift */; };
-		01C043A926054E4C00843778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C043A826054E4C00843778 /* ViewController.swift */; };
 		01C043AC26054E4C00843778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C043AA26054E4C00843778 /* Main.storyboard */; };
 		01C043AE26054E4C00843778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C043AD26054E4C00843778 /* Assets.xcassets */; };
 		01C043B126054E4C00843778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C043AF26054E4C00843778 /* LaunchScreen.storyboard */; };
 		01C043BC26054E4C00843778 /* Week5_InstaRedo2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C043BB26054E4C00843778 /* Week5_InstaRedo2Tests.swift */; };
 		01C043C726054E4C00843778 /* Week5_InstaRedo2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C043C626054E4C00843778 /* Week5_InstaRedo2UITests.swift */; };
+		01ED3EAE26055BC500EC9311 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED3EAD26055BC500EC9311 /* LoginViewController.swift */; };
+		01ED3EB326055BE200EC9311 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED3EB226055BE200EC9311 /* FeedViewController.swift */; };
+		01ED3EB82605720700EC9311 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED3EB72605720700EC9311 /* CameraViewController.swift */; };
+		1CD5117F97E085EAEE97C87A /* Pods_Week5_InstaRedo2_Week5_InstaRedo2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256A8C79C3C882E8BE47C402 /* Pods_Week5_InstaRedo2_Week5_InstaRedo2UITests.framework */; };
+		9AE924D132A15AD7F964DAA9 /* Pods_Week5_InstaRedo2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6644E197E8540C8ACE9C6107 /* Pods_Week5_InstaRedo2Tests.framework */; };
+		F8D5D69989D151BB90485A7C /* Pods_Week5_InstaRedo2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1056D9CBB388F4B5E099D1DC /* Pods_Week5_InstaRedo2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01561216260589D7002B38B8 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		01C043A126054E4C00843778 /* Week5-InstaRedo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week5-InstaRedo2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C043A426054E4C00843778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01C043A626054E4C00843778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		01C043A826054E4C00843778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01C043AB26054E4C00843778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01C043AD26054E4C00843778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01C043B026054E4C00843778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,18 @@
 		01C043C226054E4C00843778 /* Week5-InstaRedo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week5-InstaRedo2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C043C626054E4C00843778 /* Week5_InstaRedo2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week5_InstaRedo2UITests.swift; sourceTree = "<group>"; };
 		01C043C826054E4C00843778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01ED3EAD26055BC500EC9311 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		01ED3EB226055BE200EC9311 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		01ED3EB72605720700EC9311 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		1056D9CBB388F4B5E099D1DC /* Pods_Week5_InstaRedo2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Week5_InstaRedo2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		256A8C79C3C882E8BE47C402 /* Pods_Week5_InstaRedo2_Week5_InstaRedo2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Week5_InstaRedo2_Week5_InstaRedo2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D5A30CC0C4D97D907CBD99 /* Pods-Week5-InstaRedo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week5-InstaRedo2.debug.xcconfig"; path = "Target Support Files/Pods-Week5-InstaRedo2/Pods-Week5-InstaRedo2.debug.xcconfig"; sourceTree = "<group>"; };
+		454BB5292EEAB56A4E8BEBA7 /* Pods-Week5-InstaRedo2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week5-InstaRedo2Tests.release.xcconfig"; path = "Target Support Files/Pods-Week5-InstaRedo2Tests/Pods-Week5-InstaRedo2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6644E197E8540C8ACE9C6107 /* Pods_Week5_InstaRedo2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Week5_InstaRedo2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA58D7A95D292DE303F026C /* Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests.debug.xcconfig"; path = "Target Support Files/Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests/Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76CE76175C02843E461DA965 /* Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests.release.xcconfig"; path = "Target Support Files/Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests/Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		89E055397543B24FD6F79ADE /* Pods-Week5-InstaRedo2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week5-InstaRedo2Tests.debug.xcconfig"; path = "Target Support Files/Pods-Week5-InstaRedo2Tests/Pods-Week5-InstaRedo2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD5BA09256EEE4CB77B1EFD0 /* Pods-Week5-InstaRedo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Week5-InstaRedo2.release.xcconfig"; path = "Target Support Files/Pods-Week5-InstaRedo2/Pods-Week5-InstaRedo2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D5D69989D151BB90485A7C /* Pods_Week5_InstaRedo2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE924D132A15AD7F964DAA9 /* Pods_Week5_InstaRedo2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CD5117F97E085EAEE97C87A /* Pods_Week5_InstaRedo2_Week5_InstaRedo2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				01C043BA26054E4C00843778 /* Week5-InstaRedo2Tests */,
 				01C043C526054E4C00843778 /* Week5-InstaRedo2UITests */,
 				01C043A226054E4C00843778 /* Products */,
+				6FB0476D3F5C82947C650676 /* Pods */,
+				7FF5E1D78E56A722681E8A07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +124,14 @@
 			children = (
 				01C043A426054E4C00843778 /* AppDelegate.swift */,
 				01C043A626054E4C00843778 /* SceneDelegate.swift */,
-				01C043A826054E4C00843778 /* ViewController.swift */,
 				01C043AA26054E4C00843778 /* Main.storyboard */,
+				01561216260589D7002B38B8 /* PostCell.swift */,
 				01C043AD26054E4C00843778 /* Assets.xcassets */,
 				01C043AF26054E4C00843778 /* LaunchScreen.storyboard */,
 				01C043B226054E4C00843778 /* Info.plist */,
+				01ED3EAD26055BC500EC9311 /* LoginViewController.swift */,
+				01ED3EB226055BE200EC9311 /* FeedViewController.swift */,
+				01ED3EB72605720700EC9311 /* CameraViewController.swift */,
 			);
 			path = "Week5-InstaRedo2";
 			sourceTree = "<group>";
@@ -128,6 +154,29 @@
 			path = "Week5-InstaRedo2UITests";
 			sourceTree = "<group>";
 		};
+		6FB0476D3F5C82947C650676 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31D5A30CC0C4D97D907CBD99 /* Pods-Week5-InstaRedo2.debug.xcconfig */,
+				FD5BA09256EEE4CB77B1EFD0 /* Pods-Week5-InstaRedo2.release.xcconfig */,
+				6BA58D7A95D292DE303F026C /* Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests.debug.xcconfig */,
+				76CE76175C02843E461DA965 /* Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests.release.xcconfig */,
+				89E055397543B24FD6F79ADE /* Pods-Week5-InstaRedo2Tests.debug.xcconfig */,
+				454BB5292EEAB56A4E8BEBA7 /* Pods-Week5-InstaRedo2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7FF5E1D78E56A722681E8A07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1056D9CBB388F4B5E099D1DC /* Pods_Week5_InstaRedo2.framework */,
+				256A8C79C3C882E8BE47C402 /* Pods_Week5_InstaRedo2_Week5_InstaRedo2UITests.framework */,
+				6644E197E8540C8ACE9C6107 /* Pods_Week5_InstaRedo2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01C043CB26054E4C00843778 /* Build configuration list for PBXNativeTarget "Week5-InstaRedo2" */;
 			buildPhases = (
+				2187A6F3749B7D7840DBEE6B /* [CP] Check Pods Manifest.lock */,
 				01C0439D26054E4C00843778 /* Sources */,
 				01C0439E26054E4C00843778 /* Frameworks */,
 				01C0439F26054E4C00843778 /* Resources */,
+				E8240C72788BDC891B7A6961 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01C043CE26054E4C00843778 /* Build configuration list for PBXNativeTarget "Week5-InstaRedo2Tests" */;
 			buildPhases = (
+				A83D5669B588B92CCCBF904A /* [CP] Check Pods Manifest.lock */,
 				01C043B326054E4C00843778 /* Sources */,
 				01C043B426054E4C00843778 /* Frameworks */,
 				01C043B526054E4C00843778 /* Resources */,
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01C043D126054E4C00843778 /* Build configuration list for PBXNativeTarget "Week5-InstaRedo2UITests" */;
 			buildPhases = (
+				75736C092E60FD641B9C2616 /* [CP] Check Pods Manifest.lock */,
 				01C043BE26054E4C00843778 /* Sources */,
 				01C043BF26054E4C00843778 /* Frameworks */,
 				01C043C026054E4C00843778 /* Resources */,
+				9F1D0A68F731BC130DB946CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +307,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2187A6F3749B7D7840DBEE6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Week5-InstaRedo2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75736C092E60FD641B9C2616 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1D0A68F731BC130DB946CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests/Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests/Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests/Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A83D5669B588B92CCCBF904A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Week5-InstaRedo2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8240C72788BDC891B7A6961 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Week5-InstaRedo2/Pods-Week5-InstaRedo2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Week5-InstaRedo2/Pods-Week5-InstaRedo2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Week5-InstaRedo2/Pods-Week5-InstaRedo2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		01C0439D26054E4C00843778 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C043A926054E4C00843778 /* ViewController.swift in Sources */,
+				01ED3EAE26055BC500EC9311 /* LoginViewController.swift in Sources */,
+				01ED3EB82605720700EC9311 /* CameraViewController.swift in Sources */,
 				01C043A526054E4C00843778 /* AppDelegate.swift in Sources */,
+				01ED3EB326055BE200EC9311 /* FeedViewController.swift in Sources */,
 				01C043A726054E4C00843778 /* SceneDelegate.swift in Sources */,
+				01561217260589D7002B38B8 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +593,7 @@
 		};
 		01C043CC26054E4C00843778 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31D5A30CC0C4D97D907CBD99 /* Pods-Week5-InstaRedo2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +612,7 @@
 		};
 		01C043CD26054E4C00843778 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5BA09256EEE4CB77B1EFD0 /* Pods-Week5-InstaRedo2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +631,7 @@
 		};
 		01C043CF26054E4C00843778 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E055397543B24FD6F79ADE /* Pods-Week5-InstaRedo2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +653,7 @@
 		};
 		01C043D026054E4C00843778 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454BB5292EEAB56A4E8BEBA7 /* Pods-Week5-InstaRedo2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +675,7 @@
 		};
 		01C043D226054E4C00843778 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA58D7A95D292DE303F026C /* Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +695,7 @@
 		};
 		01C043D326054E4C00843778 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CE76175C02843E461DA965 /* Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
