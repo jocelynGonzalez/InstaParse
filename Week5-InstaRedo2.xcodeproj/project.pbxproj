@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01561217260589D7002B38B8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01561216260589D7002B38B8 /* PostCell.swift */; };
+		0156121C260EB2E0002B38B8 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156121B260EB2E0002B38B8 /* CommentCell.swift */; };
 		01C043A526054E4C00843778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C043A426054E4C00843778 /* AppDelegate.swift */; };
 		01C043A726054E4C00843778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C043A626054E4C00843778 /* SceneDelegate.swift */; };
 		01C043AC26054E4C00843778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C043AA26054E4C00843778 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		01561216260589D7002B38B8 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		0156121B260EB2E0002B38B8 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		01C043A126054E4C00843778 /* Week5-InstaRedo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week5-InstaRedo2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C043A426054E4C00843778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01C043A626054E4C00843778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				01ED3EAD26055BC500EC9311 /* LoginViewController.swift */,
 				01ED3EB226055BE200EC9311 /* FeedViewController.swift */,
 				01ED3EB72605720700EC9311 /* CameraViewController.swift */,
+				0156121B260EB2E0002B38B8 /* CommentCell.swift */,
 			);
 			path = "Week5-InstaRedo2";
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				01ED3EB326055BE200EC9311 /* FeedViewController.swift in Sources */,
 				01C043A726054E4C00843778 /* SceneDelegate.swift in Sources */,
 				01561217260589D7002B38B8 /* PostCell.swift in Sources */,
+				0156121C260EB2E0002B38B8 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
