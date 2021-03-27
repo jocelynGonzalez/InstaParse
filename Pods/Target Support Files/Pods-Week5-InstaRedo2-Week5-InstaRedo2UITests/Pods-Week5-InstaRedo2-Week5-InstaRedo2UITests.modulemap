@@ -1,0 +1,6 @@
+framework module Pods_Week5_InstaRedo2_Week5_InstaRedo2UITests {
+  umbrella header "Pods-Week5-InstaRedo2-Week5-InstaRedo2UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
